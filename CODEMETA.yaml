@@ -29,11 +29,11 @@
 
 ---
 categories:
-  # - ai-ml
+  - ai-ml
   # - performance-and-workflow
   - scientific-software
   # - simulation
-  # - tools
+  - tools
   # - visualization
 
 themes:
@@ -128,8 +128,8 @@ themes:
   #     - Precision medicine
   #     - Regenerative medicine
   #
-  # - Information Technology
-  #     - Artificial intelligence
+  - Information Technology
+      - Artificial intelligence
   #     - Biometrics
   #     - Cloud computing and virtualization
   #     - Complex systems
@@ -142,7 +142,7 @@ themes:
   #         - Cryptography
   #         - Cybersecurity Education and Workforce Development
   #         - Risk management
-  #     - Data and informatics
+      - Data and informatics
   #         - Human language technology
   #         - Information retrieval
   #         - Natural language processing
@@ -202,7 +202,7 @@ themes:
   #     - Systems integration
   #     - Technology commercialization
   #
-  # - Materials
+  - Materials
   #     - Ceramics
   #     - Composites
   #     - Concrete and cement
@@ -212,18 +212,18 @@ themes:
   #         - Mechanical properties
   #         - Thermal properties
   #     - Metals
-  #     - Modeling and computational material science
-  #     - Polymers
+      - Modeling and computational material science
+      - Polymers
   #     - Superconductors
   #
-  # - Mathematics and Statistics
+  - Mathematics and Statistics
   #     - Experiment design
   #     - Image and signal processing
   #     - Mathematical knowledge management
   #     - Modeling and simulation research
   #     - Numerical methods and software
   #     - Statistical analysis
-  #     - Uncertainty quantification
+      - Uncertainty quantification
   #
   # - Metrology
   #     - Acoustic/vibration metrology
