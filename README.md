@@ -53,30 +53,21 @@ The source code compares a variety of methods for incoporating theory into machi
 To run the source code, navigate to the src folder and run
 
 ```bash
-   python3 main.py
+python3 main.py
 ```
 
 ## Contact
 
-Dr. Debra J. Audus
+Dr. Debra J. Audus  
+Polymer Analytics Project  
+Materials Science and Engineering Division  
+Material Measurement Laboratory  
+National Institute of Standards and Technology  
 
-Polymer Analytics Project
-
-Materials Science and Engineering Division
-
-Material Measurement Laboratory
-
-National Institute of Standards and Technology
-
-
-Email: debra.audus@nist.gov
-
-GithubID: @debraaudus
-
-Project website: https://www.nist.gov/programs-projects/polymer-analytics
-
-Staff website: https://www.nist.gov/people/debra-audus
-
+Email: debra.audus@nist.gov  
+GithubID: @debraaudus  
+Project website: https://www.nist.gov/programs-projects/polymer-analytics  
+Staff website: https://www.nist.gov/people/debra-audus  
 
 ## How to cite
 
