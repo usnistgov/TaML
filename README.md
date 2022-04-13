@@ -17,10 +17,10 @@ git clone https://github.com/usnistgov/TaML.git
 Create a Python virtual enviroment
 
 ```bash
-python3 -m TaML env
+python3 -m venv env
 ```
 
-where `TaML` is the name of the virtual enviroment and `env` in the location of the virtual enviroment
+where `env` in the location of the virtual enviroment
 
 Activate the virtual enviroment
 
