@@ -14,15 +14,15 @@ First clone the code via
 git clone https://github.com/usnistgov/TaML.git
 ```
 
-Create a Python virtual enviroment
+Create a Python virtual environment
 
 ```bash
 python3 -m venv env
 ```
 
-where `env` in the location of the virtual enviroment
+where `env` in the location of the virtual environment
 
-Activate the virtual enviroment
+Activate the virtual environment
 
 ```bash
 source env/bin/activate
@@ -38,7 +38,7 @@ python3 -m pip install -r requirements.txt
 
 Included notebooks include `DataVisualization` for visualizing the input data used for machine learning, `MethodComparision_GPR_HeteroscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with heteroscedastic noise, `MethodComparision_GPR_HomoscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with homoscedastic noise, and `ViewResults` for plotting the relative performance of different methods for incorporating theory into machine learning for three different machine learning models.
 
-For users interested in testing ideas, we recommend focusing on the `MethodComparison_GPR_HeteroscedasticNoise` notebook as it explores the different methods and takes into account the known uncertainities in the input data. 
+For users interested in testing ideas, we recommend focusing on the `MethodComparison_GPR_HeteroscedasticNoise` notebook as it explores the different methods and takes into account the known uncertainties in the input data. 
 
 To run the Juypter notebooks, navigate to the notebook folder and run
 
@@ -48,7 +48,7 @@ jupyter notebook
 
 ## Source code
 
-The source code compares a variety of methods for incoporating theory into machine learning for three different machine learning models: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. The output of the files can be plotted by modifying the notebook title `ViewResults` such that the data files are pulled from a local run as opposed to the stored data.
+The source code compares a variety of methods for incorporating theory into machine learning for three different machine learning models: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. The output of the files can be plotted by modifying the notebook title `ViewResults` such that the data files are pulled from a local run as opposed to the stored data.
 
 To run the source code, navigate to the src folder and run
 
@@ -71,4 +71,4 @@ Staff website: https://www.nist.gov/people/debra-audus
 
 ## How to cite
 
-Please check back later. This will be updated once the accompanying manuscipt is published.
+Please check back later. This will be updated once the accompanying manuscript is published.
