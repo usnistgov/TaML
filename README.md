@@ -2,11 +2,11 @@
 
 This repository contains code to incorporate imperfect theory into machine learning for improved prediction and explainability. Specifically, it focuses on the case study of the dimensions of a polymer chain in different solvent qualities. For machine learning methods, three methods are considered: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. 
 
-This code is provided to supplement a manuscript to be published. For those wishing to incorporate key ideas from the manuscript including incorporating theory and using Gaussian Process Regression with heteroscedastic noise, we suggest starting with `MethodComparision_GPR_HeteroscedasticNoise` in the notebook folder. However, all the code needed to reproduce all of the figures is provided.
+This code is provided to supplement a manuscript to be published. For those wishing to incorporate key ideas from the manuscript including incorporating theory and using Gaussian Process Regression with heteroscedastic noise, we suggest starting with `MethodComparison_GPR_HeteroscedasticNoise` in the notebook folder. However, all the code needed to reproduce all of the figures is provided.
 
 ## Running the code
 
-All code Python based and can be used on any operating system.
+All code is written in Python and can be used on any operating system.
 
 First clone the code via
 
@@ -36,11 +36,11 @@ python3 -m pip install -r requirements.txt
 
 ## Notebooks
 
-Included notebooks include `DataVisualization` for visualizing the input data used for machine learning, `MethodComparision_GPR_HeteroscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with heteroscedastic noise, `MethodComparision_GPR_HomoscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with homoscedastic noise, and `ViewResults` for plotting the relative performance of different methods for incorporating theory into machine learning for three different machine learning models.
+Included notebooks include `DataVisualization` for visualizing the input data used for machine learning, `MethodComparison_GPR_HeteroscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with heteroscedastic noise, `MethodComparison_GPR_HomoscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with homoscedastic noise, and `ViewResults` for plotting the relative performance of different methods for incorporating theory into machine learning for three different machine learning models.
 
 For users interested in testing ideas, we recommend focusing on the `MethodComparison_GPR_HeteroscedasticNoise` notebook as it explores the different methods and takes into account the known uncertainties in the input data. 
 
-To run the Juypter notebooks, navigate to the notebook folder and run
+To run the Jupyter notebooks, navigate to the notebook folder and run
 
 ```bash
 jupyter notebook
