@@ -37,7 +37,7 @@ categories:
   # - visualization
 
 themes:
-  - Information Technology
+  - Information Technology:
     - Data and informatics
   # - Advanced communications
   #     - Optical communications
@@ -128,7 +128,7 @@ themes:
   #     - Precision medicine
   #     - Regenerative medicine
   #
-  - Information Technology
+  - Information Technology:
       - Artificial intelligence
   #     - Biometrics
   #     - Cloud computing and virtualization
@@ -202,7 +202,7 @@ themes:
   #     - Systems integration
   #     - Technology commercialization
   #
-  - Materials
+  - Materials:
   #     - Ceramics
   #     - Composites
   #     - Concrete and cement
@@ -216,7 +216,7 @@ themes:
       - Polymers
   #     - Superconductors
   #
-  - Mathematics and Statistics
+  - Mathematics and Statistics:
   #     - Experiment design
   #     - Image and signal processing
   #     - Mathematical knowledge management
