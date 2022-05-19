@@ -6,7 +6,9 @@ This code is provided to supplement a manuscript to be published. For those wish
 
 ## Running the code
 
-All code is written in Python and can be used on any operating system.
+All code is written in Python and requires Python >= 3.7. It can be used on any operating system. Other requirements are listed in `requirements.txt`.
+
+If you are only interested in running the Jupyter Notebooks in [Google Colab](https://colab.research.google.com/), you can skip ahead to [Notebooks](##Notebooks).
 
 First clone the code via
 
@@ -14,13 +16,17 @@ First clone the code via
 git clone https://github.com/usnistgov/TaML.git
 ```
 
-Create a Python virtual environment
+Next, one needs to create a virtual enviroment. This can be done using Python virtual enviroments or with Anaconda. Both options are listed below.
+
+### Create a Python virtual environment
+
+First, make sure you are using Python 3.7 or later.
 
 ```bash
 python3 -m venv env
 ```
 
-where `env` in the location of the virtual environment
+where `env` is the location of the virtual environment
 
 Activate the virtual environment
 
@@ -34,17 +40,57 @@ Install dependencies
 python3 -m pip install -r requirements.txt
 ```
 
+### Create a virtual enviroment with Anaconda
+
+First, install [conda](https://www.anaconda.com).
+
+```bash
+conda env create -f enviroment.yml
+```
+
+Activate the virtual enviroment. For Windows, use
+
+```bash
+activate TaML
+```
+
+For macOS/Linux, use
+
+```bash
+source activate TaML
+```
+
+GPFlow 2.2.1 is not available on conda channels and must be installed via pip
+
+```bash
+pip install gpflow==2.2.1
+```
+
 ## Notebooks
 
 Included notebooks include `DataVisualization` for visualizing the input data used for machine learning, `MethodComparison_GPR_HeteroscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with heteroscedastic noise, `MethodComparison_GPR_HomoscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with homoscedastic noise, and `ViewResults` for plotting the relative performance of different methods for incorporating theory into machine learning for three different machine learning models.
 
 For users interested in testing ideas, we recommend focusing on the `MethodComparison_GPR_HeteroscedasticNoise` notebook as it explores the different methods and takes into account the known uncertainties in the input data. 
 
-To run the Jupyter notebooks, navigate to the notebook folder and run
+If you cloned the repository, the Jupyter notebooks can by run by navigating to the notebook folder and using the command
 
 ```bash
 jupyter notebook
 ```
+
+If you are interested in running one or more notebooks in [Google Colab](https://colab.research.google.com/), nativigate to the notebook of interest on the TaML GitHub page, for example, `https://github.com/usnistgov/TaML/blob/main/notebooks/MethodComparison_GPR_HeteroscedasticNoise.ipynb`. Then replace `github.com` with `githubtocolab.com`. This should open the notebook in Google Colab. For the `DataVisualization` and `ViewResults` notebooks, all dependencies are likely available and you should be able to directly run them. For the `MethodComparison_GPR_HeteroscedasticNoise` and `MethodComparison_GPR_HomoscedasticNoise` notebooks, you must install GPFlow. This can be accomplished by 
+
+(1) uncommenting out the code block
+
+```bash
+!pip install gpflow==2.2.1
+```
+
+(2) executing the code block
+
+(3) restarting the run time enviroment (there should be a button at the bottom of the output for that code block).
+
+Then you can run the notebook as normal.
 
 ## Source code
 
