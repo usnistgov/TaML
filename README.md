@@ -16,6 +16,12 @@ First clone the code via
 git clone https://github.com/usnistgov/TaML.git
 ```
 
+and navigate to the directory where the repository lives
+
+```bash
+cd TaML
+```
+
 Next, one needs to create a virtual enviroment. This can be done using Python virtual enviroments or with Anaconda. Both options are listed below.
 
 ### Create a Python virtual environment (option 1)
