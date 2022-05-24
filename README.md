@@ -18,7 +18,7 @@ git clone https://github.com/usnistgov/TaML.git
 
 Next, one needs to create a virtual enviroment. This can be done using Python virtual enviroments or with Anaconda. Both options are listed below.
 
-### Create a Python virtual environment
+### Create a Python virtual environment (option 1)
 
 First, make sure you are using Python 3.7 or later.
 
@@ -40,15 +40,15 @@ Install dependencies
 python3 -m pip install -r requirements.txt
 ```
 
-### Create a virtual enviroment with Anaconda
+### Create a virtual enviroment with Anaconda (option 2)
 
 First, install [conda](https://www.anaconda.com).
 
 ```bash
-conda env create -f enviroment.yml
+conda env create -f environment.yml
 ```
 
-Activate the virtual enviroment. For Windows, use
+Activate the virtual environment. For Windows, use
 
 ```bash
 activate TaML
@@ -64,6 +64,14 @@ GPFlow 2.2.1 is not available on conda channels and must be installed via pip
 
 ```bash
 pip install gpflow==2.2.1
+```
+
+### Install the TaML package (optional)
+
+For users who wish to import functions from the source code, the TaML package can be installed via
+
+```bash
+python3 setup.py install
 ```
 
 ## Notebooks
@@ -94,12 +102,12 @@ Then you can run the notebook as normal.
 
 ## Source code
 
-The source code compares a variety of methods for incorporating theory into machine learning for three different machine learning models: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. The output of the files can be plotted by modifying the notebook title `ViewResults` such that the data files are pulled from a local run as opposed to the stored data.
+The source code (see the `taml` folder) compares a variety of methods for incorporating theory into machine learning for three different machine learning models: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. The output of the files can be plotted by modifying the notebook title `ViewResults` such that the data files are pulled from a local run as opposed to the stored data.
 
 To run the source code, navigate to the src folder and run
 
 ```bash
-python3 main.py
+python3 __main__.py
 ```
 
 ## Contact
