@@ -1,10 +1,11 @@
 import numpy as np
 import pandas as pd
-import mltools as mltools
-import mlmethods as mlmeth
-import mlmethodsGPRhetero as mlmethGPRhetero
-import mlmethodsGPRhomo as mlmethGPRhomo
-import GPRhetero
+import os
+from taml import mltools as mltools
+from taml import mlmethods as mlmeth
+from taml import mlmethodsGPRhetero as mlmethGPRhetero
+from taml import mlmethodsGPRhomo as mlmethGPRhomo
+from taml import GPRhetero
 
 from sklearn.ensemble import RandomForestRegressor
 
@@ -26,8 +27,10 @@ if (GPRhetero.CheckGPRhetero() != True):
 
 ########## get the data ################
 
-df = pd.read_csv("../data/rgmaindata.csv")  # regular data
-dfho = pd.read_csv("../data/rgoutlierdata.csv")  # outlier data
+path = os.path.dirname(__file__)
+
+df = pd.read_csv(path+'/../data/rgmaindata.csv')  # regular data
+dfho = pd.read_csv(path+'/../data/rgoutlierdata.csv')  # outlier data
 
 ########## set up data for ML ##########
 

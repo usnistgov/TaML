@@ -13,7 +13,7 @@ import gpflow
 import tensorflow as tf
 from gpflow.ci_utils import ci_niter
 from gpflow.utilities import print_summary, set_trainable
-from mltools import optimizeGPR
+from taml.mltools import optimizeGPR
 
 from sklearn.metrics import mean_squared_error
 
