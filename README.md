@@ -80,6 +80,8 @@ pip install .
 
 Included notebooks include `DataVisualization` for visualizing the input data used for machine learning, `MethodComparison_GPR_HeteroscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with heteroscedastic noise, `MethodComparison_GPR_HomoscedasticNoise` for comparing different methods for incorporating theory into machine learning using Gaussian Process Regression with homoscedastic noise, and `ViewResults` for plotting the relative performance of different methods for incorporating theory into machine learning for three different machine learning models.
 
+### Running notebooks locally (option 1)
+
 For users interested in testing ideas, we recommend focusing on the `MethodComparison_GPR_HeteroscedasticNoise` notebook as it explores the different methods and takes into account the known uncertainties in the input data. 
 
 If you cloned the repository, the Jupyter notebooks can by run by navigating to the notebook folder and using the command
@@ -87,6 +89,8 @@ If you cloned the repository, the Jupyter notebooks can by run by navigating to 
 ```bash
 jupyter notebook
 ```
+
+### Running notebooks in Google Colab (option 2)
 
 If you are interested in running one or more notebooks in [Google Colab](https://colab.research.google.com/), nativigate to the notebook of interest on the TaML GitHub page, for example, `https://github.com/usnistgov/TaML/blob/main/notebooks/MethodComparison_GPR_HeteroscedasticNoise.ipynb`. Then replace `github.com` with `githubtocolab.com`. This should open the notebook in Google Colab. For the `DataVisualization` and `ViewResults` notebooks, all dependencies are likely available and you should be able to directly run them. For the `MethodComparison_GPR_HeteroscedasticNoise` and `MethodComparison_GPR_HomoscedasticNoise` notebooks, you must install GPFlow. This can be accomplished by 
 
