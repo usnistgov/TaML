@@ -4,10 +4,10 @@ This repository contains code to incorporate imperfect theory into machine learn
 
 The repository is intended for the following use cases:
 
-- Illustrate key ideas from the mansucript including incorporating theory and using Gaussian Process Regression with heteroscedastic noise (see `notebooks/MethodComparison_GPR_HeteroscedasticNoise` and the companion notebook without heteroscedastic noise `notebooks/MethodComparison_GPR_HomoscedasticNoise`
+- Illustrate key ideas from the manuscript including incorporating theory and using Gaussian Process Regression with heteroscedastic noise (see `notebooks/MethodComparison_GPR_HeteroscedasticNoise` and the companion notebook without heteroscedastic noise `notebooks/MethodComparison_GPR_HomoscedasticNoise`
 - Provide code for Gaussian Process Regression with heteroscedastic noise (which can be used after installation with `from taml.GPRhetero import GPRhetero`).
 - Reproduce figures from our manuscript (see `notebooks` folder)
-- Allow for full reproducbility of the data in the manuscript
+- Allow for full reproducibility of the data in the manuscript
 
 ## Running the code
 
@@ -27,7 +27,7 @@ and navigate to the directory where the repository lives
 cd TaML
 ```
 
-Next, one needs to create a virtual enviroment. This can be done using Python virtual enviroments or with Anaconda. Both options are listed below.
+Next, one needs to create a virtual environment. This can be done using Python virtual environments or with Anaconda. Both options are listed below.
 
 ### Create a Python virtual environment (option 1)
 
@@ -51,7 +51,7 @@ Install dependencies
 python3 -m pip install -r requirements.txt
 ```
 
-### Create a virtual enviroment with Anaconda (option 2)
+### Create a virtual environment with Anaconda (option 2)
 
 First, install [conda](https://www.anaconda.com).
 
@@ -114,7 +114,7 @@ This should open the notebook in Google Colab. For the `DataVisualization` and `
 
 (2) executing the code block
 
-(3) restarting the run time enviroment (there should be a button at the bottom of the output for that code block).
+(3) restarting the run time environment (there should be a button at the bottom of the output for that code block).
 
 Then you can run the notebook as normal.
 
