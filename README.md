@@ -73,7 +73,7 @@ pip install gpflow==2.2.1
 For users who wish to use the source code or import functions, the TaML package can be installed via
 
 ```bash
-pip install ./taml
+pip install .
 ```
 
 ## Notebooks
