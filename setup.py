@@ -8,11 +8,10 @@ requirements = [
     "matplotlib>=3.5",
     "notebook",
     "numpy",
-    "pandas",
+    "pandas>=1.0",
     "scikit-learn>=1.0",
     "scipy",
     "seaborn",
-    "os",
     "tensorflow==2.8.1",
 ]
 
