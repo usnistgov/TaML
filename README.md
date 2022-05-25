@@ -54,17 +54,13 @@ First, install [conda](https://www.anaconda.com).
 conda env create -f environment.yml
 ```
 
-Activate the virtual environment. For Windows, use
+If you are using conda>=4.6, activate the virtual environment via
 
 ```bash
-activate TaML
+conda activate TaML
 ```
 
-For macOS/Linux, use
-
-```bash
-source activate TaML
-```
+Otherwise, see the [conda docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
 GPFlow 2.2.1 is not available on conda channels and must be installed via pip
 
@@ -72,12 +68,12 @@ GPFlow 2.2.1 is not available on conda channels and must be installed via pip
 pip install gpflow==2.2.1
 ```
 
-### Install the TaML package (optional)
+### Install the TaML package
 
-For users who wish to import functions from the source code, the TaML package can be installed via
+For users who wish to use the source code or import functions, the TaML package can be installed via
 
 ```bash
-python3 setup.py install
+pip install ./taml
 ```
 
 ## Notebooks
@@ -110,10 +106,10 @@ Then you can run the notebook as normal.
 
 The source code (see the `taml` folder) compares a variety of methods for incorporating theory into machine learning for three different machine learning models: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. The output of the files can be plotted by modifying the notebook title `ViewResults` such that the data files are pulled from a local run as opposed to the stored data.
 
-To run the source code, navigate to the src folder and run
+To run the source code
 
 ```bash
-python3 __main__.py
+python3 -m taml
 ```
 
 ## Contact
