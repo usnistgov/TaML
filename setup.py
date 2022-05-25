@@ -12,7 +12,8 @@ requirements = [
     "scikit-learn>=1.0",
     "scipy",
     "seaborn",
-    "tensorflow==2.8.0",
+    "os",
+    "tensorflow==2.8.1",
 ]
 
 readme_txt = open('README.md').read()
