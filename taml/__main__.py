@@ -36,15 +36,15 @@ dfho = pd.read_csv('https://raw.githubusercontent.com/usnistgov/TaML/main/data/r
 ########## set up data for ML ##########
 
 # main data
-y_all = np.array(df['log Rg,mean'])
-x_all = np.array(df[['log N', 'lambda']])
+y_all = np.array(df['log Rg^2, mean'])
+x_all = np.array(df[['log N', 'alpha']])
 t_all = np.log(calc_rg(np.exp(x_all[:, 0]))).reshape(len(x_all[:, 0]))
-a_all = np.array(df['log Rg, var err'])
+a_all = np.array(df['log Rg^2, var err'])
 dat = [x_all, y_all, t_all, a_all]
 
 # outlier
-y_out = np.array(dfho['log Rg,mean'])
-x_out = np.array(dfho[['log N', 'lambda']])
+y_out = np.array(dfho['log Rg^2, mean'])
+x_out = np.array(dfho[['log N', 'alpha']])
 t_out = np.log(calc_rg(np.exp(x_out[:, 0]))).reshape(len(x_out[:, 0]))
 dat_out = [x_out, y_out, t_out]
 
