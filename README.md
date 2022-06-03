@@ -1,6 +1,8 @@
 # Theory aware Machine Learning (TaML)
 
-This repository contains code to incorporate imperfect theory into machine learning for improved prediction and explainability. Specifically, it focuses on the case study of the dimensions of a polymer chain in different solvent qualities. For machine learning methods, three methods are considered: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. 
+This repository contains code to incorporate imperfect theory into machine learning for improved prediction and explainability. Specifically, it focuses on the case study of the dimensions of a polymer chain, in this case the radius of gyration, in different solvent qualities. For machine learning models, three models are considered: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. Of the three models, we encourage use of Gaussian Process Regression with heteroscedastic noise as it provides accurate uncertainty estimates.
+
+Gaussian Process Regression with heteroscedastic noise relies on the [GPFlow](https://www.gpflow.org/) python package. However, since heteroscedastic noise is not natively implemented, we implement a derived class to add this functionality (see `taml/GPRhetero.py`). Gaussian Process Regression with homoscedastic noise is implemented natively with GPFlow. Random Forest is implemented using [Scikit-learn](https://scikit-learn.org/stable/).
 
 The repository is intended for the following use cases:
 
