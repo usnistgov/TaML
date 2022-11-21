@@ -6,4 +6,4 @@ pandas>=1.0
 scikit-learn>=1.0
 scipy
 seaborn
-tensorflow==2.8.1
+tensorflow==2.9.3
