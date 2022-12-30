@@ -29,7 +29,6 @@ if (GPRhetero.CheckGPRhetero() != True):
 
 path = os.path.dirname(__file__)
 
-# will be updated with MIDAS path
 df = pd.read_csv('https://raw.githubusercontent.com/usnistgov/TaML/main/data/rgmaindata.csv')  # regular data
 dfho = pd.read_csv('https://raw.githubusercontent.com/usnistgov/TaML/main/data/rgoutlierdata.csv')  # outlier data
 
