@@ -2,7 +2,7 @@
 
 This repository supports the following manuscript
 
-Audus, Debra J., Austin McDannald, and Brian DeCost. "Leveraging Theory for Enhanced Machine Learning." *ACS Macro Letters* 11.9 (2022): 1117-1122. DOI: [10.1021/acsmacrolett.2c00369](https://doi.org/10.1021/acsmacrolett.2c00369),
+Debra J. Audus, Austin McDannald, and Brian DeCost, "Leveraging Theory for Enhanced Machine Learning"  *ACS Macro Letters* **2022** *11* (9), 1117-1122 DOI: [10.1021/acsmacrolett.2c00369](https://doi.org/10.1021/acsmacrolett.2c00369),
 
 which explores methods for incorporating imperfect theory into machine learning for improved prediction and explainability. Specifically, it focuses on the case study of the dimensions of a polymer chain, in this case the radius of gyration, in different solvent qualities. For machine learning models, three models are considered: Gaussian Process Regression with heteroscedastic noise, Gaussian Process Regression with homoscedastic noise and Random Forest. Of the three models, we encourage use of Gaussian Process Regression with heteroscedastic noise as it provides accurate uncertainty estimates.
 
@@ -151,7 +151,7 @@ Staff website: https://www.nist.gov/people/debra-audus
 
 If you use the code, please cite our manuscript:
 
-Debra J. Audus, Austin McDannald, and Brian DeCost *ACS Macro Letters* **2022** *11* (9), 1117-1122 DOI: 10.1021/acsmacrolett.2c00369
+Debra J. Audus, Austin McDannald, and Brian DeCost *ACS Macro Letters* **2022** *11* (9), 1117-1122 DOI: [10.1021/acsmacrolett.2c00369](https://doi.org/10.1021/acsmacrolett.2c00369)
 
 If you use the data, please cite:
 
